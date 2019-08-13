@@ -1,0 +1,19 @@
+fieldset {
+    border: none;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dog-picture {
+    width: 400px;
+    display: block;
+    margin: 10px;
+}

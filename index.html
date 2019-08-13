@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GitHub API App - Get List of User Repos</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is an app that find repos owned by a specified user on GitHub.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <label for="gitHubUser" class="gitHubUser">
+                    Whose repos do you want to see?
+                </label>
+                <input id="gitHubUser" type="text" placeholder="GitHub Handle" required>
+                <button type="submit" class="submit">Submit</button>
+            </fieldset>
+        </form>
+        <section class="repos hidden"></section>
+    </body>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</html>
