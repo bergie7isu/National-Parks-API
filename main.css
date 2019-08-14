@@ -1,5 +1,6 @@
 fieldset {
     border: none;
+    padding: 10px;
 }
 
 input {
@@ -12,8 +13,19 @@ input {
     display: none;
 }
 
-.dog-picture {
-    width: 400px;
-    display: block;
-    margin: 10px;
+.repos {
+    padding: 10px;
+}
+
+.error {
+    color: red
+}
+
+.repo-name {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+h3, h2 {
+    margin: 0;
 }
