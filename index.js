@@ -1,8 +1,8 @@
 'use strict';
 
 const apiKey = 'lF1tTMT5K2nk86LAAAL600npXktKyrIYmfikRdmY';
-const geoCodeApiKey = 'AIzaSyArbkQNWD77aLqJiAMAZW9_qKGL3dNWym0'
-const nationalParksApiUrl = 'https://developer.nps.gov/api/v1/parks'
+const geoCodeApiKey = 'AIzaSyAja14m8R454O0cRGW3VfYbSH371OsO58o';
+const nationalParksApiUrl = 'https://developer.nps.gov/api/v1/parks';
 let i;
 let numberOfStates = 1;
 
@@ -28,7 +28,6 @@ function getAddress(latLong, i) {
 }
 
 function logResults(jsonResponse) {
-    console.log(jsonResponse);
     $('.results').empty();
     $('.results').removeClass('hidden');
     if (jsonResponse.length == 0) {
