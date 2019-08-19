@@ -1,31 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 fieldset {
     border: none;
     padding: 10px;
 }
 
-input {
-    display: block;
+input, select {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+label.max-results {
+    display: block;
+    margin-top: 40px;
 }
 
 .hidden {
     display: none;
 }
 
-.repos {
-    padding: 10px;
-}
-
 .error {
     color: red
 }
 
-.repo-name {
-    margin-top: 40px;
-    margin-bottom: 5px;
-}
-
-h3, h2 {
+h2 {
     margin: 0;
 }
+
+.park-result {
+    margin-top: 30px;
+    width: 600px;
+    padding: 10px;
+}
+
