@@ -21,9 +21,9 @@ function getAddress(latLong, i) {
                 throw new Error(response.statusText);
             }
         })
-        .then(jsonResponse => formatParkAddress(jsonResponse, i))//.results[0].formatted_address)//.results[0].formatted_address)
+        .then(jsonResponse => formatParkAddress(jsonResponse, i))
         .catch(error => {
-            $(`.park-address${i}`).append('Address not retrieved!');
+            $(`.park-address${i}`).append('Address not retrieved! ' + error.message);
         });
 }
 
