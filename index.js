@@ -1,7 +1,7 @@
 'use strict';
 
-const apiKey = 'lF1tTMT5K2nk86LAAAL600npXktKyrIYmfikRdmY';
-const geoCodeApiKey = 'AIzaSyAja14m8R454O0cRGW3VfYbSH371OsO58o';
+const apiKey = 'MY NATIONAL PARKS KEY';
+const geoCodeApiKey = 'MY GOOGLE KEY';
 const nationalParksApiUrl = 'https://developer.nps.gov/api/v1/parks';
 let i;
 let numberOfStates = 1;
